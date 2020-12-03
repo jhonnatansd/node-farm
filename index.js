@@ -5,7 +5,7 @@ const slugify = require('slugify');
 const replaceTemplate = require('./modules/replaceTemplate');
 
 //////////////////////////////////////////////
-// Variables thar are loaded once
+// Variables that are loaded once
 //////////////////////////////////////////////
 const templateOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
 const templateCard = fs.readFileSync(`${__dirname}/templates/template-card.html`, 'utf-8');
